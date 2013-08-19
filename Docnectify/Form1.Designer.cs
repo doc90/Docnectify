@@ -83,6 +83,7 @@
             this.label1.Size = new System.Drawing.Size(56, 13);
             this.label1.TabIndex = 4;
             this.label1.Text = "Nome rete";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 

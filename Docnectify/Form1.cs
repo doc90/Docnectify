@@ -68,5 +68,11 @@ namespace Docnectify
             Output.Text = "";
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Start.Enabled = true;
+            Stop.Enabled = true;
+        }
+
     }
 }
